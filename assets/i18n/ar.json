@@ -73,8 +73,10 @@
     "instagram": "إنستغرام",
     "facebook": "فيسبوك",
     "pinterest": "بنترست",
+    "tiktok": "تيك توك",
     "copyright": "© 2024 فريش كي. جميع الحقوق محفوظة.",
-    "payment": "طرق الدفع"
+    "payment": "طرق الدفع",
+    "cart": "السلة"
   },
   "about": {
     "title": "قصتنا",
@@ -106,6 +108,7 @@
     "subject": "الموضوع",
     "subjectPlaceholder": "موضوع الرسالة",
     "messagePlaceholder": "رسالتك",
+    "messageLabel": "الرسالة",
     "send": "أرسل",
     "faq": "الأسئلة الشائعة",
     "shipping": "أوقات الشحن؟",

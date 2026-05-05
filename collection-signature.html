@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Signature Collection - Frensh K">
     <title>Signature Collection - Frensh K</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/layarah-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <a href="#main" class="skip-link">Skip to main content</a>
@@ -23,10 +23,10 @@
                     <h1><a href="/">FRENSH K</a></h1>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="/#collections">Collections</a></li>
-                    <li><a href="/#new">Nouveautés</a></li>
-                    <li><a href="about.html">À propos</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/#collections" data-i18n="nav.collections">Collections</a></li>
+                    <li><a href="/#products" data-i18n="nav.shop">Nouveautés</a></li>
+                    <li><a href="about.html" data-i18n="nav.about">À propos</a></li>
+                    <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
                 </ul>
                 <div class="nav-icons">
                     <button class="search-btn">🔍</button>
@@ -39,8 +39,8 @@
     <main id="main">
         <section class="featured-products">
             <div class="container">
-                <h2 class="section-title">Signature Collection</h2>
-                <p style="text-align: center; color: #666; margin-bottom: 60px; font-size: 18px;">Nos pièces signatures, l'essence même de frensh k</p>
+                <h2 class="section-title" data-i18n="collections.signature.name">Signature Collection</h2>
+                <p style="text-align: center; color: #666; margin-bottom: 60px; font-size: 18px;" data-i18n="collections.signature.description">Nos pièces signatures, l'essence même de frensh k</p>
 
                 <div class="products-grid">
                     <div class="product-card">
@@ -135,6 +135,7 @@
         </div>
     </footer>
 
+    <script src="assets/js/i18n.js" defer></script>
     <script src="script.js"></script>
 </body>
 </html>

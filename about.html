@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="À propos de Frensh K - Notre histoire et nos valeurs">
     <title>À propos - Frensh K</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/layarah-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <a href="#main" class="skip-link">Skip to main content</a>
@@ -23,10 +23,10 @@
                     <h1><a href="/">FRENSH K</a></h1>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="/#collections">Collections</a></li>
-                    <li><a href="/#new">Nouveautés</a></li>
-                    <li><a href="about.html">À propos</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/#collections" data-i18n="nav.collections">Collections</a></li>
+                    <li><a href="/#products" data-i18n="nav.shop">Nouveautés</a></li>
+                    <li><a href="about.html" data-i18n="nav.about">À propos</a></li>
+                    <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
                 </ul>
                 <div class="nav-icons">
                     <button class="search-btn">🔍</button>
@@ -39,8 +39,8 @@
     <main id="main">
         <section class="hero" style="padding: 60px 0;">
             <div class="hero-content">
-                <h2 class="hero-title">Notre Histoire</h2>
-                <p class="hero-subtitle">Découvrez qui nous sommes</p>
+                <h2 class="hero-title" data-i18n="about.title">Notre Histoire</h2>
+                <p class="hero-subtitle" data-i18n="about.subtitle">Découvrez qui nous sommes</p>
             </div>
             <div class="hero-image">
                 <div class="placeholder-image">About us</div>
@@ -49,27 +49,27 @@
 
         <section class="collections">
             <div class="container">
-                <h2 class="section-title">Notre Philosophie</h2>
+                <h2 class="section-title" data-i18n="about.philosophy">Notre Philosophie</h2>
 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 60px;">
                     <div>
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 28px; margin-bottom: 20px;">Excellence</h3>
-                        <p style="color: #666; line-height: 1.8;">Chez Frensh K, nous croyons que la qualité n'est pas une option. Chaque pièce est sélectionnée avec soin pour assurer une excellence tant dans la conception que dans la fabrication.</p>
+                        <h3 style="font-family: 'Playfair Display', serif; font-size: 28px; margin-bottom: 20px;" data-i18n="about.excellence">Excellence</h3>
+                        <p style="color: #666; line-height: 1.8;" data-i18n="about.excellenceText">Chez Frensh K, nous croyons que la qualité n'est pas une option. Chaque pièce est sélectionnée avec soin pour assurer une excellence tant dans la conception que dans la fabrication.</p>
                     </div>
                     <div>
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 28px; margin-bottom: 20px;">Style Intemporel</h3>
-                        <p style="color: #666; line-height: 1.8;">Nos collections transcendent les tendances passagères. Nous créons des pièces qui restent élégantes et pertinentes d'année en année.</p>
+                        <h3 style="font-family: 'Playfair Display', serif; font-size: 28px; margin-bottom: 20px;" data-i18n="about.timeless">Style Intemporel</h3>
+                        <p style="color: #666; line-height: 1.8;" data-i18n="about.timelessText">Nos collections transcendent les tendances passagères. Nous créons des pièces qui restent élégantes et pertinentes d'année en année.</p>
                     </div>
                 </div>
 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
                     <div>
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 28px; margin-bottom: 20px;">Durabilité</h3>
-                        <p style="color: #666; line-height: 1.8;">Nous nous engageons à des pratiques durables. De la sourcing responsable à l'emballage écologique, chaque décision compte.</p>
+                        <h3 style="font-family: 'Playfair Display', serif; font-size: 28px; margin-bottom: 20px;" data-i18n="about.sustainability">Durabilité</h3>
+                        <p style="color: #666; line-height: 1.8;" data-i18n="about.sustainabilityText">Nous nous engageons à des pratiques durables. De la sourcing responsable à l'emballage écologique, chaque décision compte.</p>
                     </div>
                     <div>
-                        <h3 style="font-family: 'Playfair Display', serif; font-size: 28px; margin-bottom: 20px;">Service Client</h3>
-                        <p style="color: #666; line-height: 1.8;">Votre satisfaction est notre priorité. Notre équipe est à votre disposition 24/7 pour répondre à vos questions et préoccupations.</p>
+                        <h3 style="font-family: 'Playfair Display', serif; font-size: 28px; margin-bottom: 20px;" data-i18n="about.service">Service Client</h3>
+                        <p style="color: #666; line-height: 1.8;" data-i18n="about.serviceText">Votre satisfaction est notre priorité. Notre équipe est à votre disposition 24/7 pour répondre à vos questions et préoccupations.</p>
                     </div>
                 </div>
             </div>
@@ -77,11 +77,11 @@
 
         <section class="newsletter">
             <div class="container">
-                <h2>Restez au courant</h2>
-                <p>Inscrivez-vous pour recevoir nos actualités et offres exclusives</p>
+                <h2 data-i18n="newsletter.title">Restez au courant</h2>
+                <p data-i18n="newsletter.description">Inscrivez-vous pour recevoir nos actualités et offres exclusives</p>
                 <form class="newsletter-form">
-                    <input type="email" placeholder="Votre email" required>
-                    <button type="submit">S'inscrire</button>
+                    <input type="email" data-i18n-placeholder="newsletter.placeholder" placeholder="Votre email" required>
+                    <button type="submit" data-i18n="newsletter.subscribe">S'inscrire</button>
                 </form>
             </div>
         </section>
@@ -91,54 +91,52 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>À propos</h4>
+                    <h4 data-i18n="footer.about">À propos</h4>
                     <ul>
-                        <li><a href="about.html">À propos de Frensh K</a></li>
-                        <li><a href="#our-story">Notre histoire</a></li>
-                        <li><a href="#sustainability">Durabilité</a></li>
+                        <li><a href="about.html" data-i18n="footer.aboutUs">À propos de Frensh K</a></li>
+                        <li><a href="#our-story" data-i18n="footer.ourStory">Notre histoire</a></li>
+                        <li><a href="#sustainability" data-i18n="footer.sustainability">Durabilité</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
-                    <h4>Informations</h4>
+                    <h4 data-i18n="footer.information">Informations</h4>
                     <ul>
-                        <li><a href="#shipping">Livraison</a></li>
-                        <li><a href="#returns">Retours</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#shipping" data-i18n="footer.shipping">Livraison</a></li>
+                        <li><a href="#returns" data-i18n="footer.returns">Retours</a></li>
+                        <li><a href="#faq" data-i18n="footer.faq">FAQ</a></li>
+                        <li><a href="contact.html" data-i18n="footer.contact">Contact</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
-                    <h4>Légal</h4>
+                    <h4 data-i18n="footer.legal">Légal</h4>
                     <ul>
-                        <li><a href="#privacy">Politique de confidentialité</a></li>
-                        <li><a href="#terms">Conditions d'utilisation</a></li>
-                        <li><a href="#cookies">Cookies</a></li>
+                        <li><a href="#privacy" data-i18n="footer.privacy">Politique de confidentialité</a></li>
+                        <li><a href="#terms" data-i18n="footer.terms">Conditions d'utilisation</a></li>
+                        <li><a href="#cookies" data-i18n="footer.cookies">Cookies</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-section">
-                    <h4>Nous Suivre</h4>
+                    <h4 data-i18n="footer.follow">Nous Suivre</h4>
                     <div class="social-links">
-                        <a href="https://instagram.com" target="_blank">Instagram</a>
-                        <a href="https://facebook.com" target="_blank">Facebook</a>
-                        <a href="https://pinterest.com" target="_blank">Pinterest</a>
+                        <a href="https://www.instagram.com/frensh__k/" target="_blank" data-i18n="footer.instagram">Instagram</a>
+                        <a href="https://www.tiktok.com/@frensh__k" target="_blank" data-i18n="footer.tiktok">TikTok</a>
                     </div>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2024 Frensh K. Tous droits réservés.</p>
+                <p data-i18n="footer.copyright">&copy; 2024 Frensh K. Tous droits réservés.</p>
                 <div class="payment-methods">
-                    <span>💳 Carte bancaire</span>
-                    <span>🏦 Virement</span>
-                    <span>📱 PayPal</span>
+                    <span data-i18n="footer.payment">Carte bancaire • Virement • PayPal</span>
                 </div>
             </div>
         </div>
     </footer>
 
+    <script src="assets/js/i18n.js" defer></script>
     <script src="script.js"></script>
 </body>
 </html>

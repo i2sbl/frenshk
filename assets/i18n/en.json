@@ -73,8 +73,10 @@
     "instagram": "Instagram",
     "facebook": "Facebook",
     "pinterest": "Pinterest",
+    "tiktok": "TikTok",
     "copyright": "© 2024 Frensh K. All rights reserved.",
-    "payment": "Payment Methods"
+    "payment": "Payment Methods",
+    "cart": "Cart"
   },
   "about": {
     "title": "Our Story",
@@ -106,6 +108,7 @@
     "subject": "Subject",
     "subjectPlaceholder": "Message subject",
     "messagePlaceholder": "Your message",
+    "messageLabel": "Message",
     "send": "Send",
     "faq": "Frequently Asked Questions",
     "shipping": "Shipping times?",

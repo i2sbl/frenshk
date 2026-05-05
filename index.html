@@ -23,17 +23,17 @@
             </div>
 
             <ul class="nav-menu">
-                <li><a href="#collections">Collections</a></li>
-                <li><a href="#products">Produits</a></li>
-                <li><a href="about.html">À Propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#collections" data-i18n="nav.collections">Collections</a></li>
+                <li><a href="#products" data-i18n="nav.shop">Produits</a></li>
+                <li><a href="about.html" data-i18n="nav.about">À Propos</a></li>
+                <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
             </ul>
 
             <div class="nav-icons">
                 <div class="lang-switcher"></div>
                 <a href="https://www.instagram.com/frensh__k/" target="_blank" class="social-icon" aria-label="Instagram">INSTAGRAM</a>
                 <a href="https://www.tiktok.com/@frensh__k" target="_blank" class="social-icon" aria-label="TikTok">TIKTOK</a>
-                <a href="#cart" class="cart-btn">PANIER</a>
+                <a href="#cart" class="cart-btn" data-i18n="footer.cart">PANIER</a>
             </div>
         </nav>
     </header>
@@ -43,9 +43,9 @@
         <!-- Hero Section -->
         <section class="hero">
             <div class="hero-content observe">
-                <h2>L'Élégance Intemporelle</h2>
-                <p class="hero-subtitle">Pièces minimalistes & luxueuses pour un style intemporel</p>
-                <a href="#collections" class="btn btn-primary">Explorer</a>
+                <h2 data-i18n="hero.title">L'Élégance Intemporelle</h2>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Pièces minimalistes & luxueuses pour un style intemporel</p>
+                <a href="#collections" class="btn btn-primary" data-i18n="hero.cta">Explorer</a>
             </div>
             <div class="hero-image observe">
                 <div class="placeholder-image">Collection Principale</div>
@@ -55,15 +55,15 @@
         <!-- Collections -->
         <section id="collections" class="collections">
             <div class="section-container">
-                <h2 class="section-title observe">Nos Collections</h2>
+                <h2 class="section-title observe" data-i18n="collections.title">Nos Collections</h2>
                 <div class="collection-grid">
                     <div class="collection-card observe">
                         <div class="collection-card-image">
                             <div class="placeholder-image">Nouvelle Collection</div>
                         </div>
                         <div class="collection-card-content">
-                            <h3>Nouvelle Collection</h3>
-                            <p>Découvrez les pièces les plus tendances de cette saison. Un savant mélange de minimalisme et d'élégance.</p>
+                            <h3 data-i18n="collections.nouvelle.name">Nouvelle Collection</h3>
+                            <p data-i18n="collections.nouvelle.description">Découvrez les pièces les plus tendances de cette saison. Un savant mélange de minimalisme et d'élégance.</p>
                         </div>
                     </div>
 
@@ -72,8 +72,8 @@
                             <div class="placeholder-image">Signature Collection</div>
                         </div>
                         <div class="collection-card-content">
-                            <h3>Signature Collection</h3>
-                            <p>Nos pièces signatures, l'essence même de Frensh K. Chaque design raconte une histoire d'élégance.</p>
+                            <h3 data-i18n="collections.signature.name">Signature Collection</h3>
+                            <p data-i18n="collections.signature.description">Nos pièces signatures, l'essence même de Frensh K. Chaque design raconte une histoire d'élégance.</p>
                         </div>
                     </div>
 
@@ -82,8 +82,8 @@
                             <div class="placeholder-image">Classique Collection</div>
                         </div>
                         <div class="collection-card-content">
-                            <h3>Classique Collection</h3>
-                            <p>Des pièces intemporelles qui traversent les saisons. Qualité premium et design atemporel.</p>
+                            <h3 data-i18n="collections.classique.name">Classique Collection</h3>
+                            <p data-i18n="collections.classique.description">Des pièces intemporelles qui traversent les saisons. Qualité premium et design atemporel.</p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
         <!-- Products Carousel -->
         <section id="products" class="carousel-section">
             <div class="carousel-container">
-                <h2 class="section-title observe">Nouveautés</h2>
+                <h2 class="section-title observe" data-i18n="products.title">Nouveautés</h2>
                 <div class="carousel-track" id="carousel">
                     <!-- Product 1 -->
                     <div class="carousel-item observe">
@@ -105,7 +105,7 @@
                             <div class="product-info">
                                 <p class="product-name">Pièce Élégante - Studio</p>
                                 <p class="product-price">€89,00</p>
-                                <button class="add-to-cart">Ajouter au Panier</button>
+                                <button class="add-to-cart" data-i18n="products.addToCart">Ajouter au Panier</button>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                             <div class="product-info">
                                 <p class="product-name">Créations Minimalistes</p>
                                 <p class="product-price">€79,00</p>
-                                <button class="add-to-cart">Ajouter au Panier</button>
+                                <button class="add-to-cart" data-i18n="products.addToCart">Ajouter au Panier</button>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                             <div class="product-info">
                                 <p class="product-name">Luxe Intemporel</p>
                                 <p class="product-price">€99,00</p>
-                                <button class="add-to-cart">Ajouter au Panier</button>
+                                <button class="add-to-cart" data-i18n="products.addToCart">Ajouter au Panier</button>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                             <div class="product-info">
                                 <p class="product-name">Signature Line</p>
                                 <p class="product-price">€109,00</p>
-                                <button class="add-to-cart">Ajouter au Panier</button>
+                                <button class="add-to-cart" data-i18n="products.addToCart">Ajouter au Panier</button>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
                             <div class="product-info">
                                 <p class="product-name">Premium Collection</p>
                                 <p class="product-price">€119,00</p>
-                                <button class="add-to-cart">Ajouter au Panier</button>
+                                <button class="add-to-cart" data-i18n="products.addToCart">Ajouter au Panier</button>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                             <div class="product-info">
                                 <p class="product-name">Édition Exclusive</p>
                                 <p class="product-price">€129,00</p>
-                                <button class="add-to-cart">Ajouter au Panier</button>
+                                <button class="add-to-cart" data-i18n="products.addToCart">Ajouter au Panier</button>
                             </div>
                         </div>
                     </div>
@@ -188,22 +188,22 @@
         <!-- Values Section -->
         <section class="values">
             <div class="section-container">
-                <h2 class="section-title observe">Nos Valeurs</h2>
+                <h2 class="section-title observe" data-i18n="about.philosophy">Nos Valeurs</h2>
                 <div class="values-grid">
                     <div class="value-card observe">
                         <div class="value-icon">✓</div>
-                        <h3>Qualité Premium</h3>
-                        <p>Chaque pièce sélectionnée pour son excellence et sa durabilité exceptionnelle.</p>
+                        <h3 data-i18n="about.excellence">Qualité Premium</h3>
+                        <p data-i18n="about.excellenceText">Chaque pièce sélectionnée pour son excellence et sa durabilité exceptionnelle.</p>
                     </div>
                     <div class="value-card observe">
                         <div class="value-icon">∞</div>
-                        <h3>Design Intemporel</h3>
-                        <p>Des créations qui transcendent les tendances pour rester élégantes à jamais.</p>
+                        <h3 data-i18n="about.timeless">Design Intemporel</h3>
+                        <p data-i18n="about.timelessText">Des créations qui transcendent les tendances pour rester élégantes à jamais.</p>
                     </div>
                     <div class="value-card observe">
                         <div class="value-icon">⚜</div>
-                        <h3>Service Clients</h3>
-                        <p>Un accompagnement personnalisé du choix à la livraison, avec bienveillance.</p>
+                        <h3 data-i18n="about.service">Service Clients</h3>
+                        <p data-i18n="about.serviceText">Un accompagnement personnalisé du choix à la livraison, avec bienveillance.</p>
                     </div>
                 </div>
             </div>
@@ -215,47 +215,47 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
-                <h4>À Propos</h4>
+                <h4 data-i18n="footer.about">À Propos</h4>
                 <ul>
-                    <li><a href="about.html">À propos de Frensh K</a></li>
-                    <li><a href="#">Notre histoire</a></li>
-                    <li><a href="#">Durabilité</a></li>
+                    <li><a href="about.html" data-i18n="footer.aboutUs">À propos de Frensh K</a></li>
+                    <li><a href="#" data-i18n="footer.ourStory">Notre histoire</a></li>
+                    <li><a href="#" data-i18n="footer.sustainability">Durabilité</a></li>
                     <li><a href="#">Carrières</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h4>Informations</h4>
+                <h4 data-i18n="footer.information">Informations</h4>
                 <ul>
-                    <li><a href="#">Conditions de livraison</a></li>
-                    <li><a href="#">Politique de retour</a></li>
+                    <li><a href="#" data-i18n="footer.shipping">Conditions de livraison</a></li>
+                    <li><a href="#" data-i18n="footer.returns">Politique de retour</a></li>
                     <li><a href="#">Guide des tailles</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#" data-i18n="footer.faq">FAQ</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h4>Légal</h4>
+                <h4 data-i18n="footer.legal">Légal</h4>
                 <ul>
-                    <li><a href="#">Politique de confidentialité</a></li>
-                    <li><a href="#">Conditions d'utilisation</a></li>
-                    <li><a href="#">Gestion des cookies</a></li>
+                    <li><a href="#" data-i18n="footer.privacy">Politique de confidentialité</a></li>
+                    <li><a href="#" data-i18n="footer.terms">Conditions d'utilisation</a></li>
+                    <li><a href="#" data-i18n="footer.cookies">Gestion des cookies</a></li>
                     <li><a href="#">Mentions légales</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h4>Nous Suivre</h4>
+                <h4 data-i18n="footer.follow">Nous Suivre</h4>
                 <ul>
-                    <li><a href="https://www.instagram.com/frensh__k/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.tiktok.com/@frensh__k" target="_blank">TikTok</a></li>
+                    <li><a href="https://www.instagram.com/frensh__k/" target="_blank" data-i18n="footer.instagram">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@frensh__k" target="_blank" data-i18n="footer.tiktok">TikTok</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2024 Frensh K. Tous droits réservés.</p>
-            <p>Carte bancaire • Virement • PayPal</p>
+            <p data-i18n="footer.copyright">&copy; 2024 Frensh K. Tous droits réservés.</p>
+            <p data-i18n="footer.payment">Carte bancaire • Virement • PayPal</p>
         </div>
     </footer>
 
