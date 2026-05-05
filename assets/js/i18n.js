@@ -171,6 +171,7 @@ class I18n {
     // Create buttons for each language
     this.supportedLangs.forEach((lang) => {
       const btn = document.createElement('button');
+      btn.type = 'button';
       btn.className = `lang-btn ${lang === this.currentLang ? 'active' : ''}`;
       btn.dataset.lang = lang;
 
