@@ -250,6 +250,18 @@ body {
   background: var(--color-gray-50);
 }
 
+.social-icon {
+  font-size: var(--font-size-lg);
+  cursor: pointer;
+  transition: transform var(--transition-base);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
+}
+
 /* HERO SECTION */
 .hero {
   display: grid;
