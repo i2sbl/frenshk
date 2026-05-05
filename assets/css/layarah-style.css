@@ -524,6 +524,54 @@ body {
   background-color: var(--color-rose);
 }
 
+/* VALUES SECTION */
+.values {
+  padding: var(--spacing-4xl) 0;
+  background: var(--color-cream);
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-2xl);
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.value-card {
+  text-align: center;
+  padding: var(--spacing-2xl);
+  background: var(--color-white);
+  border-radius: var(--radius-base);
+  transition: all var(--transition-base);
+}
+
+.value-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.value-icon {
+  font-size: 48px;
+  margin-bottom: var(--spacing-lg);
+  display: block;
+}
+
+.value-card h3 {
+  font-family: var(--font-serif);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-md);
+  color: var(--color-primary);
+}
+
+.value-card p {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+  line-height: var(--line-height-relaxed);
+}
+
 /* TESTIMONIALS */
 .testimonials {
   padding: var(--spacing-4xl) 0;
@@ -657,7 +705,8 @@ body {
 
 /* RESPONSIVE */
 @media (max-width: 1024px) {
-  .collection-grid {
+  .collection-grid,
+  .values-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -697,7 +746,8 @@ body {
   }
 
   .collection-grid,
-  .testimonials-grid {
+  .testimonials-grid,
+  .values-grid {
     grid-template-columns: 1fr;
   }
 
