@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "Frensh K - Timeless Elegance",
+    "description": "Discover our exclusive collection of elegant and timeless fashion pieces"
+  },
+  "nav": {
+    "collections": "Collections",
+    "signature": "Signature",
+    "about": "About",
+    "contact": "Contact",
+    "shop": "Shop"
+  },
+  "hero": {
+    "title": "Timeless Elegance",
+    "subtitle": "Discover our exclusive collection",
+    "cta": "Explore"
+  },
+  "collections": {
+    "title": "Our Collections",
+    "nouvelle": {
+      "name": "New Collection",
+      "description": "Discover the most trendy pieces of this season"
+    },
+    "signature": {
+      "name": "Signature Collection",
+      "description": "Our signature pieces, the essence of frensh k"
+    },
+    "classique": {
+      "name": "Classic Collection",
+      "description": "Timeless pieces that transcend the seasons"
+    }
+  },
+  "products": {
+    "title": "Latest Arrivals",
+    "price": "Price",
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "promotion": "Promotion",
+    "viewMore": "View more →"
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "description": "Subscribe to receive our latest news and exclusive offers",
+    "placeholder": "Your email",
+    "subscribe": "Subscribe",
+    "success": "Thank you for subscribing!",
+    "error": "Please enter a valid email address"
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "review1": "Exceptional quality and fast delivery!",
+    "author1": "Marie P.",
+    "review2": "The design is perfect, exactly what I was looking for.",
+    "author2": "Sophie L.",
+    "review3": "Responsive customer service and beautiful products!",
+    "author3": "Claire R."
+  },
+  "footer": {
+    "about": "About",
+    "aboutUs": "About Frensh K",
+    "ourStory": "Our Story",
+    "sustainability": "Sustainability",
+    "information": "Information",
+    "shipping": "Shipping",
+    "returns": "Returns",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookies",
+    "follow": "Follow Us",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "pinterest": "Pinterest",
+    "copyright": "© 2024 Frensh K. All rights reserved.",
+    "payment": "Payment Methods"
+  },
+  "about": {
+    "title": "Our Story",
+    "subtitle": "Discover who we are",
+    "philosophy": "Our Philosophy",
+    "excellence": "Excellence",
+    "excellenceText": "At Frensh K, we believe that quality is not an option. Each piece is carefully selected to ensure excellence in both design and craftsmanship.",
+    "timeless": "Timeless Style",
+    "timelessText": "Our collections transcend fleeting trends. We create pieces that remain elegant and relevant year after year.",
+    "sustainability": "Sustainability",
+    "sustainabilityText": "We are committed to sustainable practices. From responsible sourcing to eco-friendly packaging, every decision counts.",
+    "service": "Customer Service",
+    "serviceText": "Your satisfaction is our priority. Our team is available 24/7 to answer your questions and concerns."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help",
+    "info": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "frensh": "Frensh K",
+    "paris": "Paris, France",
+    "social": "Social Media",
+    "message": "Send us a Message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "subject": "Subject",
+    "subjectPlaceholder": "Message subject",
+    "messagePlaceholder": "Your message",
+    "send": "Send",
+    "faq": "Frequently Asked Questions",
+    "shipping": "Shipping times?",
+    "shippingAnswer": "Orders are shipped within 2-3 business days. Delivery in 5-7 days for metropolitan France.",
+    "returns": "Return policy?",
+    "returnsAnswer": "We accept returns within 30 days. Items must be in perfect condition, unworn, and with the tag.",
+    "payment": "Payment methods?",
+    "paymentAnswer": "We accept credit cards, PayPal, Apple Pay, Google Pay and bank transfers.",
+    "international": "International shipping?",
+    "internationalAnswer": "Yes, we ship to over 50 countries."
+  },
+  "buttons": {
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Save"
+  }
+}

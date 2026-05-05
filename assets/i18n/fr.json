@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "title": "Frensh K - L'Élégance Intemporelle",
+    "description": "Découvrez notre collection exclusive de pièces élégantes et intemporelles"
+  },
+  "nav": {
+    "collections": "Collections",
+    "signature": "Signature",
+    "about": "À propos",
+    "contact": "Contact",
+    "shop": "Boutique"
+  },
+  "hero": {
+    "title": "L'Élégance Intemporelle",
+    "subtitle": "Découvrez notre collection exclusive",
+    "cta": "Explorer"
+  },
+  "collections": {
+    "title": "Nos Collections",
+    "nouvelle": {
+      "name": "Nouvelle Collection",
+      "description": "Découvrez les pièces les plus tendances de cette saison"
+    },
+    "signature": {
+      "name": "Signature Collection",
+      "description": "Nos pièces signatures, l'essence même de frensh k"
+    },
+    "classique": {
+      "name": "Classique Collection",
+      "description": "Des pièces intemporelles qui traversent les saisons"
+    }
+  },
+  "products": {
+    "title": "Nouveautés",
+    "price": "Prix",
+    "addToCart": "Ajouter au panier",
+    "outOfStock": "Épuisé",
+    "promotion": "Promotion",
+    "viewMore": "Voir plus →"
+  },
+  "newsletter": {
+    "title": "Restez au courant",
+    "description": "Inscrivez-vous pour recevoir nos actualités et offres exclusives",
+    "placeholder": "Votre email",
+    "subscribe": "S'inscrire",
+    "success": "Merci de votre inscription !",
+    "error": "Veuillez entrer une adresse email valide"
+  },
+  "testimonials": {
+    "title": "Avis Clients",
+    "review1": "Qualité exceptionnelle et livraison rapide!",
+    "author1": "Marie P.",
+    "review2": "Le design est parfait, exactement ce que je cherchais.",
+    "author2": "Sophie L.",
+    "review3": "Service client réactif et produits magnifiques!",
+    "author3": "Claire R."
+  },
+  "footer": {
+    "about": "À propos",
+    "aboutUs": "À propos de Frensh K",
+    "ourStory": "Notre histoire",
+    "sustainability": "Durabilité",
+    "information": "Informations",
+    "shipping": "Livraison",
+    "returns": "Retours",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "legal": "Légal",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Cookies",
+    "follow": "Nous Suivre",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "pinterest": "Pinterest",
+    "copyright": "© 2024 Frensh K. Tous droits réservés.",
+    "payment": "Moyens de paiement"
+  },
+  "about": {
+    "title": "Notre Histoire",
+    "subtitle": "Découvrez qui nous sommes",
+    "philosophy": "Notre Philosophie",
+    "excellence": "Excellence",
+    "excellenceText": "Chez Frensh K, nous croyons que la qualité n'est pas une option. Chaque pièce est sélectionnée avec soin pour assurer une excellence tant dans la conception que dans la fabrication.",
+    "timeless": "Style Intemporel",
+    "timelessText": "Nos collections transcendent les tendances passagères. Nous créons des pièces qui restent élégantes et pertinentes d'année en année.",
+    "sustainability": "Durabilité",
+    "sustainabilityText": "Nous nous engageons à des pratiques durables. De la sourcing responsable à l'emballage écologique, chaque décision compte.",
+    "service": "Service Client",
+    "serviceText": "Votre satisfaction est notre priorité. Notre équipe est à votre disposition 24/7 pour répondre à vos questions et préoccupations."
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "subtitle": "Nous sommes là pour vous aider",
+    "info": "Informations de Contact",
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "frensh": "Frensh K",
+    "paris": "Paris, France",
+    "social": "Réseaux Sociaux",
+    "message": "Envoyez-nous un Message",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "Votre email",
+    "subject": "Sujet",
+    "subjectPlaceholder": "Sujet du message",
+    "messagePlaceholder": "Votre message",
+    "send": "Envoyer",
+    "faq": "Questions Fréquemment Posées",
+    "shipping": "Délais de livraison?",
+    "shippingAnswer": "Les commandes sont expédiées sous 2-3 jours ouvrables. Livraison en 5-7 jours pour la France métropolitaine.",
+    "returns": "Politique de retour?",
+    "returnsAnswer": "Nous acceptons les retours sous 30 jours. Les articles doivent être en parfait état, non portés et avec l'étiquette.",
+    "payment": "Moyens de paiement?",
+    "paymentAnswer": "Nous acceptons les cartes bancaires, PayPal, Apple Pay, Google Pay et les virements bancaires.",
+    "international": "Livraison internationale?",
+    "internationalAnswer": "Oui, nous livrons dans plus de 50 pays."
+  },
+  "buttons": {
+    "close": "Fermer",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Éditer",
+    "save": "Sauvegarder"
+  }
+}

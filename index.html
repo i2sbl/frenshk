@@ -1,157 +1,256 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Frensh K - Discover our exclusive collection of elegant and timeless fashion pieces">
-    <meta name="keywords" content="fashion, collection, elegant, style, frensh k">
-    <meta property="og:title" content="Frensh K - Timeless Elegance">
-    <meta property="og:description" content="Discover our exclusive collection">
-    <meta property="og:image" content="/images/og-image.png">
-    <title>Frensh K - Timeless Elegance</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta name="description" data-i18n="meta.description" content="Découvrez notre collection exclusive de pièces élégantes et intemporelles">
+    <meta name="keywords" content="mode, collection, élégant, style, frensh k, fashion, luxury">
+    <meta name="theme-color" content="#0a0a0a">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://frenshk.com/">
+    <meta property="og:title" data-i18n="meta.title" content="Frensh K - L'Élégance Intemporelle">
+    <meta property="og:description" data-i18n="meta.description" content="Découvrez notre collection exclusive">
+    <meta property="og:image" content="/assets/images/og-image.png">
+    <meta property="og:site_name" content="Frensh K">
+
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://frenshk.com/">
+    <meta property="twitter:title" data-i18n="meta.title" content="Frensh K - L'Élégance Intemporelle">
+    <meta property="twitter:description" data-i18n="meta.description" content="Découvrez notre collection exclusive">
+    <meta property="twitter:image" content="/assets/images/og-image.png">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://frenshk.com/">
+
+    <!-- Alternate Language Links -->
+    <link rel="alternate" hreflang="fr" href="https://frenshk.com/?lang=fr">
+    <link rel="alternate" hreflang="en" href="https://frenshk.com/?lang=en">
+    <link rel="alternate" hreflang="ar" href="https://frenshk.com/?lang=ar">
+
+    <!-- Preload Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" as="style">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/variables.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/typography.css">
+    <link rel="stylesheet" href="/assets/css/animations.css">
+    <link rel="stylesheet" href="/assets/css/layout.css">
+    <link rel="stylesheet" href="/assets/css/components.css">
+    <link rel="stylesheet" href="/assets/css/utilities.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Frensh K",
+      "url": "https://frenshk.com",
+      "logo": "https://frenshk.com/assets/images/logo.png",
+      "description": "Luxury fashion brand offering timeless and elegant pieces",
+      "sameAs": [
+        "https://www.instagram.com/frenshk",
+        "https://www.facebook.com/frenshk",
+        "https://www.pinterest.com/frenshk"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "email": "contact@frenshk.com",
+        "telephone": "+33749927055"
+      }
+    }
+    </script>
+
+    <title data-i18n="meta.title">Frensh K - L'Élégance Intemporelle</title>
 </head>
 <body>
-    <!-- Skip to main content -->
+    <!-- Skip to Main Content -->
     <a href="#main" class="skip-link">Skip to main content</a>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="header-top">
+    <!-- Header & Navigation -->
+    <header class="header sticky top-0 z-sticky">
+        <!-- Top Bar -->
+        <div class="header-top bg-gray-100">
             <div class="container">
-                <p class="promo-text">🌍 Livraison à l'international | Frais de port offert dès 100€</p>
+                <p class="promo-text text-sm text-center" data-i18n="nav.shop">Boutique</p>
             </div>
         </div>
-        <nav class="navbar">
-            <div class="container navbar-content">
+
+        <!-- Navigation Bar -->
+        <nav class="navbar border-b border-gray-200 bg-white">
+            <div class="container flex justify-between items-center py-lg">
+                <!-- Logo -->
                 <div class="logo">
-                    <h1><a href="/">FRENSH K</a></h1>
+                    <h1 class="text-h2 font-serif tracking-wide">
+                        <a href="/" class="text-primary no-underline">FRENSH K</a>
+                    </h1>
                 </div>
-                <ul class="nav-menu">
-                    <li><a href="#collections">Collections</a></li>
-                    <li><a href="#new">Nouveautés</a></li>
-                    <li><a href="about.html">À propos</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+
+                <!-- Desktop Menu -->
+                <ul class="nav-menu hidden-mobile flex gap-xl items-center">
+                    <li><a href="#collections" class="text-sm font-semibold hover-rose transition-base" data-i18n="nav.collections">Collections</a></li>
+                    <li><a href="#featured" class="text-sm font-semibold hover-rose transition-base" data-i18n="products.title">Nouveautés</a></li>
+                    <li><a href="/about.html" class="text-sm font-semibold hover-rose transition-base" data-i18n="nav.about">À propos</a></li>
+                    <li><a href="/contact.html" class="text-sm font-semibold hover-rose transition-base" data-i18n="nav.contact">Contact</a></li>
                 </ul>
-                <div class="nav-icons">
-                    <button class="search-btn">🔍</button>
-                    <a href="#cart" class="cart-btn">🛍️ (0)</a>
+
+                <!-- Right Icons -->
+                <div class="flex gap-md items-center">
+                    <!-- Language Switcher -->
+                    <div class="lang-switcher flex gap-xs"></div>
+
+                    <!-- Search & Cart -->
+                    <button class="search-btn btn-icon hidden-mobile" aria-label="Search" title="Search">🔍</button>
+                    <a href="#cart" class="cart-btn flex items-center gap-sm font-semibold" title="Shopping cart">🛍️ <span>(0)</span></a>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button class="hamburger-menu hidden-desktop flex flex-col gap-xs cursor-pointer" aria-label="Menu">
+                        <span class="w-6 h-0.5 bg-primary transition-base"></span>
+                        <span class="w-6 h-0.5 bg-primary transition-base"></span>
+                        <span class="w-6 h-0.5 bg-primary transition-base"></span>
+                    </button>
                 </div>
             </div>
         </nav>
     </header>
 
     <!-- Main Content -->
-    <main id="main">
+    <main id="main" class="flex-1">
         <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-content">
-                <h2 class="hero-title">L'élégance intemporelle</h2>
-                <p class="hero-subtitle">Découvrez notre collection exclusive</p>
-                <a href="#collections" class="cta-button">Explorer</a>
-            </div>
-            <div class="hero-image">
-                <div class="placeholder-image">Featured Collection</div>
-            </div>
-        </section>
+        <section class="hero bg-gray-50 py-2xl">
+            <div class="container grid grid-cols-2 gap-2xl items-center">
+                <div class="observe animate-fade-in-left">
+                    <h1 class="display-1 font-serif text-primary mb-lg" data-i18n="hero.title">L'Élégance Intemporelle</h1>
+                    <p class="text-lg text-gray-600 mb-2xl" data-i18n="hero.subtitle">Découvrez notre collection exclusive</p>
+                    <a href="#collections" class="btn btn-primary btn-large" data-i18n="hero.cta">Explorer</a>
+                </div>
 
-        <!-- Collections Section -->
-        <section id="collections" class="collections">
-            <div class="container">
-                <h2 class="section-title">Nos Collections</h2>
-
-                <div class="collection-grid">
-                    <!-- Collection Card 1 -->
-                    <div class="collection-card">
-                        <div class="collection-image placeholder-image">
-                            Collection 1
-                        </div>
-                        <div class="collection-info">
-                            <h3>Nouvelle Collection</h3>
-                            <p>Découvrez les pièces les plus tendances de cette saison</p>
-                            <a href="collection-nouvelle.html" class="collection-link">Voir plus →</a>
-                        </div>
-                    </div>
-
-                    <!-- Collection Card 2 -->
-                    <div class="collection-card">
-                        <div class="collection-image placeholder-image">
-                            Collection 2
-                        </div>
-                        <div class="collection-info">
-                            <h3>Signature Collection</h3>
-                            <p>Nos pièces signatures, l'essence même de frensh k</p>
-                            <a href="collection-signature.html" class="collection-link">Voir plus →</a>
-                        </div>
-                    </div>
-
-                    <!-- Collection Card 3 -->
-                    <div class="collection-card">
-                        <div class="collection-image placeholder-image">
-                            Collection 3
-                        </div>
-                        <div class="collection-info">
-                            <h3>Classique Collection</h3>
-                            <p>Des pièces intemporelles qui traversent les saisons</p>
-                            <a href="collection-classique.html" class="collection-link">Voir plus →</a>
+                <div class="hero-image observe animate-fade-in-right">
+                    <div class="aspect-square bg-gray-100 rounded-base overflow-hidden">
+                        <div class="placeholder-image w-full h-full flex items-center justify-center text-gray-400">
+                            Featured Collection
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Featured Products -->
-        <section id="new" class="featured-products">
+        <!-- Collections Section -->
+        <section id="collections" class="collections py-4xl bg-white">
             <div class="container">
-                <h2 class="section-title">Nouveautés</h2>
+                <h2 class="section-title observe animate-fade-in-up" data-i18n="collections.title">Nos Collections</h2>
 
-                <div class="products-grid">
-                    <!-- Product Card 1 -->
-                    <div class="product-card">
-                        <div class="product-image placeholder-image">
-                            Produit 1
+                <div class="grid grid-cols-fit-2 gap-lg">
+                    <!-- Collection 1 -->
+                    <div class="card card-border-top card-hover observe animate-fade-in-up animate-stagger-1">
+                        <div class="card-image aspect-video bg-gray-100">
+                            <div class="placeholder-image w-full h-full flex items-center justify-center text-gray-400">
+                                Collection 1
+                            </div>
                         </div>
-                        <div class="product-info">
-                            <h4>Elegant Piece 1</h4>
-                            <p class="product-price">€89.00</p>
-                            <button class="add-to-cart">Ajouter au panier</button>
+                        <div class="card-body">
+                            <h3 class="card-title font-serif" data-i18n="collections.nouvelle.name">Nouvelle Collection</h3>
+                            <p class="card-text text-sm" data-i18n="collections.nouvelle.description">Découvrez les pièces les plus tendances de cette saison</p>
+                            <a href="/collections/nouvelle.html" class="btn btn-tertiary text-sm font-semibold" data-i18n="products.viewMore">Voir plus →</a>
                         </div>
                     </div>
 
-                    <!-- Product Card 2 -->
-                    <div class="product-card">
-                        <div class="product-image placeholder-image">
-                            Produit 2
+                    <!-- Collection 2 -->
+                    <div class="card card-border-top card-hover observe animate-fade-in-up animate-stagger-2">
+                        <div class="card-image aspect-video bg-gray-100">
+                            <div class="placeholder-image w-full h-full flex items-center justify-center text-gray-400">
+                                Collection 2
+                            </div>
                         </div>
-                        <div class="product-info">
-                            <h4>Elegant Piece 2</h4>
-                            <p class="product-price">€79.00</p>
-                            <button class="add-to-cart">Ajouter au panier</button>
-                        </div>
-                    </div>
-
-                    <!-- Product Card 3 -->
-                    <div class="product-card">
-                        <div class="product-image placeholder-image">
-                            Produit 3
-                        </div>
-                        <div class="product-info">
-                            <h4>Elegant Piece 3</h4>
-                            <p class="product-price">€99.00</p>
-                            <button class="add-to-cart">Ajouter au panier</button>
+                        <div class="card-body">
+                            <h3 class="card-title font-serif" data-i18n="collections.signature.name">Signature Collection</h3>
+                            <p class="card-text text-sm" data-i18n="collections.signature.description">Nos pièces signatures, l'essence même de frensh k</p>
+                            <a href="/collections/signature.html" class="btn btn-tertiary text-sm font-semibold" data-i18n="products.viewMore">Voir plus →</a>
                         </div>
                     </div>
 
-                    <!-- Product Card 4 -->
-                    <div class="product-card">
-                        <div class="product-image placeholder-image">
-                            Produit 4
+                    <!-- Collection 3 -->
+                    <div class="card card-border-top card-hover observe animate-fade-in-up animate-stagger-3">
+                        <div class="card-image aspect-video bg-gray-100">
+                            <div class="placeholder-image w-full h-full flex items-center justify-center text-gray-400">
+                                Collection 3
+                            </div>
                         </div>
-                        <div class="product-info">
-                            <h4>Elegant Piece 4</h4>
-                            <p class="product-price">€85.00</p>
-                            <button class="add-to-cart">Ajouter au panier</button>
+                        <div class="card-body">
+                            <h3 class="card-title font-serif" data-i18n="collections.classique.name">Classique Collection</h3>
+                            <p class="card-text text-sm" data-i18n="collections.classique.description">Des pièces intemporelles qui traversent les saisons</p>
+                            <a href="/collections/classique.html" class="btn btn-tertiary text-sm font-semibold" data-i18n="products.viewMore">Voir plus →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section id="featured" class="featured-products py-4xl bg-gray-50">
+            <div class="container">
+                <h2 class="section-title observe animate-fade-in-up" data-i18n="products.title">Nouveautés</h2>
+
+                <div class="grid grid-cols-4 gap-lg">
+                    <!-- Product 1 -->
+                    <div class="product-card card card-hover observe animate-fade-in-up animate-stagger-1">
+                        <div class="card-image aspect-square bg-gray-100 overflow-hidden">
+                            <div class="placeholder-image w-full h-full flex items-center justify-center text-gray-400">
+                                Product 1
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="font-semibold mb-md">Elegant Piece 1</h4>
+                            <p class="text-xl font-bold text-gold mb-lg">€89.00</p>
+                            <button class="add-to-cart btn btn-primary btn-block" data-i18n="products.addToCart">Ajouter au panier</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="product-card card card-hover observe animate-fade-in-up animate-stagger-2">
+                        <div class="card-image aspect-square bg-gray-100 overflow-hidden">
+                            <div class="placeholder-image w-full h-full flex items-center justify-center text-gray-400">
+                                Product 2
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="font-semibold mb-md">Elegant Piece 2</h4>
+                            <p class="text-xl font-bold text-gold mb-lg">€79.00</p>
+                            <button class="add-to-cart btn btn-primary btn-block" data-i18n="products.addToCart">Ajouter au panier</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="product-card card card-hover observe animate-fade-in-up animate-stagger-3">
+                        <div class="card-image aspect-square bg-gray-100 overflow-hidden">
+                            <div class="placeholder-image w-full h-full flex items-center justify-center text-gray-400">
+                                Product 3
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="font-semibold mb-md">Elegant Piece 3</h4>
+                            <p class="text-xl font-bold text-gold mb-lg">€99.00</p>
+                            <button class="add-to-cart btn btn-primary btn-block" data-i18n="products.addToCart">Ajouter au panier</button>
+                        </div>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="product-card card card-hover observe animate-fade-in-up animate-stagger-4">
+                        <div class="card-image aspect-square bg-gray-100 overflow-hidden">
+                            <div class="placeholder-image w-full h-full flex items-center justify-center text-gray-400">
+                                Product 4
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4 class="font-semibold mb-md">Elegant Piece 4</h4>
+                            <p class="text-xl font-bold text-gold mb-lg">€85.00</p>
+                            <button class="add-to-cart btn btn-primary btn-block" data-i18n="products.addToCart">Ajouter au panier</button>
                         </div>
                     </div>
                 </div>
@@ -159,36 +258,40 @@
         </section>
 
         <!-- Newsletter Section -->
-        <section class="newsletter">
-            <div class="container">
-                <h2>Restez au courant</h2>
-                <p>Inscrivez-vous pour recevoir nos actualités et offres exclusives</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Votre email" required>
-                    <button type="submit">S'inscrire</button>
+        <section class="newsletter py-4xl bg-white">
+            <div class="container max-w-2xl text-center">
+                <h2 class="text-h2 font-serif mb-md observe animate-fade-in-up" data-i18n="newsletter.title">Restez au courant</h2>
+                <p class="text-gray-600 mb-2xl observe animate-fade-in-up" data-i18n="newsletter.description">Inscrivez-vous pour recevoir nos actualités et offres exclusives</p>
+
+                <form class="newsletter-form flex gap-md justify-center flex-wrap observe animate-fade-in-up">
+                    <input type="email" required class="form-input flex-1 min-w-300px" data-i18n-placeholder="newsletter.placeholder" placeholder="Votre email">
+                    <button type="submit" class="btn btn-primary" data-i18n="newsletter.subscribe">S'inscrire</button>
                 </form>
             </div>
         </section>
 
-        <!-- Social Proof Section -->
-        <section class="testimonials">
+        <!-- Testimonials Section -->
+        <section class="testimonials py-4xl bg-gray-50">
             <div class="container">
-                <h2 class="section-title">Avis Clients</h2>
-                <div class="testimonials-grid">
-                    <div class="testimonial">
-                        <p class="rating">★★★★★</p>
-                        <p>"Qualité exceptionnelle et livraison rapide!"</p>
-                        <p class="author">- Marie P.</p>
+                <h2 class="section-title observe animate-fade-in-up" data-i18n="testimonials.title">Avis Clients</h2>
+
+                <div class="grid grid-cols-fit-2 gap-lg">
+                    <div class="testimonial bg-white p-lg rounded-base observe animate-fade-in-up animate-stagger-1">
+                        <p class="text-gold text-lg mb-md">★★★★★</p>
+                        <p class="text-gray-600 italic mb-md" data-i18n="testimonials.review1">Qualité exceptionnelle et livraison rapide!</p>
+                        <p class="font-semibold text-primary" data-i18n="testimonials.author1">- Marie P.</p>
                     </div>
-                    <div class="testimonial">
-                        <p class="rating">★★★★★</p>
-                        <p>"Le design est parfait, exactement ce que je cherchais."</p>
-                        <p class="author">- Sophie L.</p>
+
+                    <div class="testimonial bg-white p-lg rounded-base observe animate-fade-in-up animate-stagger-2">
+                        <p class="text-gold text-lg mb-md">★★★★★</p>
+                        <p class="text-gray-600 italic mb-md" data-i18n="testimonials.review2">Le design est parfait, exactement ce que je cherchais.</p>
+                        <p class="font-semibold text-primary" data-i18n="testimonials.author2">- Sophie L.</p>
                     </div>
-                    <div class="testimonial">
-                        <p class="rating">★★★★★</p>
-                        <p>"Service client réactif et produits magnifiques!"</p>
-                        <p class="author">- Claire R.</p>
+
+                    <div class="testimonial bg-white p-lg rounded-base observe animate-fade-in-up animate-stagger-3">
+                        <p class="text-gold text-lg mb-md">★★★★★</p>
+                        <p class="text-gray-600 italic mb-md" data-i18n="testimonials.review3">Service client réactif et produits magnifiques!</p>
+                        <p class="font-semibold text-primary" data-i18n="testimonials.author3">- Claire R.</p>
                     </div>
                 </div>
             </div>
@@ -196,50 +299,55 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer bg-primary text-white py-4xl">
         <div class="container">
-            <div class="footer-content">
+            <div class="grid grid-cols-4 gap-2xl mb-4xl">
+                <!-- About Column -->
                 <div class="footer-section">
-                    <h4>À propos</h4>
-                    <ul>
-                        <li><a href="about.html">À propos de Frensh K</a></li>
-                        <li><a href="#our-story">Notre histoire</a></li>
-                        <li><a href="#sustainability">Durabilité</a></li>
+                    <h4 class="text-h6 text-white mb-lg" data-i18n="footer.about">À propos</h4>
+                    <ul class="space-y-sm">
+                        <li><a href="/about.html" class="text-white opacity-80 hover-rose transition-base" data-i18n="footer.aboutUs">À propos de Frensh K</a></li>
+                        <li><a href="#" class="text-white opacity-80 hover-rose transition-base" data-i18n="footer.ourStory">Notre histoire</a></li>
+                        <li><a href="#" class="text-white opacity-80 hover-rose transition-base" data-i18n="footer.sustainability">Durabilité</a></li>
                     </ul>
                 </div>
 
+                <!-- Information Column -->
                 <div class="footer-section">
-                    <h4>Informations</h4>
-                    <ul>
-                        <li><a href="#shipping">Livraison</a></li>
-                        <li><a href="#returns">Retours</a></li>
-                        <li><a href="#faq">FAQ</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                    <h4 class="text-h6 text-white mb-lg" data-i18n="footer.information">Informations</h4>
+                    <ul class="space-y-sm">
+                        <li><a href="#" class="text-white opacity-80 hover-rose transition-base" data-i18n="footer.shipping">Livraison</a></li>
+                        <li><a href="#" class="text-white opacity-80 hover-rose transition-base" data-i18n="footer.returns">Retours</a></li>
+                        <li><a href="#" class="text-white opacity-80 hover-rose transition-base" data-i18n="footer.faq">FAQ</a></li>
+                        <li><a href="/contact.html" class="text-white opacity-80 hover-rose transition-base" data-i18n="footer.contact">Contact</a></li>
                     </ul>
                 </div>
 
+                <!-- Legal Column -->
                 <div class="footer-section">
-                    <h4>Légal</h4>
-                    <ul>
-                        <li><a href="#privacy">Politique de confidentialité</a></li>
-                        <li><a href="#terms">Conditions d'utilisation</a></li>
-                        <li><a href="#cookies">Cookies</a></li>
+                    <h4 class="text-h6 text-white mb-lg" data-i18n="footer.legal">Légal</h4>
+                    <ul class="space-y-sm">
+                        <li><a href="#" class="text-white opacity-80 hover-rose transition-base" data-i18n="footer.privacy">Politique de confidentialité</a></li>
+                        <li><a href="#" class="text-white opacity-80 hover-rose transition-base" data-i18n="footer.terms">Conditions d'utilisation</a></li>
+                        <li><a href="#" class="text-white opacity-80 hover-rose transition-base" data-i18n="footer.cookies">Cookies</a></li>
                     </ul>
                 </div>
 
+                <!-- Social Column -->
                 <div class="footer-section">
-                    <h4>Nous Suivre</h4>
-                    <div class="social-links">
-                        <a href="https://instagram.com" target="_blank">Instagram</a>
-                        <a href="https://facebook.com" target="_blank">Facebook</a>
-                        <a href="https://pinterest.com" target="_blank">Pinterest</a>
+                    <h4 class="text-h6 text-white mb-lg" data-i18n="footer.follow">Nous Suivre</h4>
+                    <div class="flex flex-col gap-md">
+                        <a href="https://instagram.com" target="_blank" rel="noopener" class="text-white opacity-80 hover-rose transition-base font-semibold" data-i18n="footer.instagram">Instagram</a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" class="text-white opacity-80 hover-rose transition-base font-semibold" data-i18n="footer.facebook">Facebook</a>
+                        <a href="https://pinterest.com" target="_blank" rel="noopener" class="text-white opacity-80 hover-rose transition-base font-semibold" data-i18n="footer.pinterest">Pinterest</a>
                     </div>
                 </div>
             </div>
 
-            <div class="footer-bottom">
-                <p>&copy; 2024 Frensh K. Tous droits réservés.</p>
-                <div class="payment-methods">
+            <!-- Footer Bottom -->
+            <div class="border-t border-white border-opacity-20 pt-lg flex justify-between items-center flex-wrap gap-lg">
+                <p class="text-white opacity-70 text-sm" data-i18n="footer.copyright">© 2024 Frensh K. Tous droits réservés.</p>
+                <div class="text-white opacity-70 text-xs space-x-lg">
                     <span>💳 Carte bancaire</span>
                     <span>🏦 Virement</span>
                     <span>📱 PayPal</span>
@@ -248,6 +356,17 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Scripts -->
+    <!-- Load i18n first (required for other modules) -->
+    <script src="/assets/js/i18n.js" defer></script>
+    <!-- Load animations -->
+    <script src="/assets/js/animations.js" defer></script>
+    <!-- Load form handler -->
+    <script src="/assets/js/form.js" defer></script>
+    <!-- Load main app -->
+    <script src="/assets/js/main.js" defer></script>
+
+    <!-- Honeypot Anti-Spam (hidden form field) -->
+    <input type="text" name="phone_number" style="display:none;" tabindex="-1" autocomplete="off">
 </body>
 </html>
