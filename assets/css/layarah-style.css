@@ -184,16 +184,36 @@ body {
 
 .search-btn,
 .cart-btn {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-sm);
   cursor: pointer;
-  transition: transform var(--transition-base);
+  transition: color var(--transition-base);
   background: none;
   border: none;
+  text-decoration: none;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: var(--font-weight-semibold);
 }
 
 .search-btn:hover,
 .cart-btn:hover {
-  transform: scale(1.1);
+  color: var(--color-rose);
+}
+
+.social-icon {
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  transition: color var(--transition-base);
+  text-decoration: none;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: var(--font-weight-semibold);
+}
+
+.social-icon:hover {
+  color: var(--color-rose);
 }
 
 /* LANGUAGE SWITCHER */
